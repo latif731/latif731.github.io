@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Latif Budi Pamungkas</title>
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <body>
+
+
+        <!-------side bar------>
+        <input type="checkbox" id="check">
+        <div class="sidebar">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#work experience">Work Experience</a></li>
+            </ul>
+
+        </div>
+        <header>
+            <div class="container">
+                <h1><a href="">Latif</a></h1>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#work experience">Work Experience</a></li>
+                </ul>
+                <!------menu mobile----------->
+                <label for="check" class="mobile-menu"><i class="fas fa-bars fa-2x"></i></label>
+            </div>
+        </header>
+
+        <!-----bagian banner------->
+        <section class="banner">
+            <div class="container">
+                <img src="img/latif.jpg">
+            </div>
+        </section>
+
+        <!-------bagian about---------->
+        <section id="about">
+            <div class="container">
+                <h3><i class="uil uil-user-circle"></i>About</h3>
+                <p>Hi my name is latif i'm frelancer and i have some skills about graphic design and english, i like learn about new things and i have high curiousity
+                </p>
+            </div>
+        </section>
+        <!----------bagian education-------->
+        <section class="education">
+            <div class="container">
+                <h3><i class="uil uil-graduation-cap"></i>Education</h3>
+                <span class="education-title">SDN JATIREJO</span>
+                <div class="qualification-calendar">
+                    <i class="uil uil-calendar-alt"></i> 2001 - 2008
+                </div>
+                <span class="education-title">SMPN 1 WONOASRI</span>
+                <div class="qualification-calendar">
+                    <i class="uil uil-calendar-alt"></i> 2008 - 2011
+                </div>
+
+                <span class="education-title">SMAN 1 MEJAYAN</span>
+                <div class="qualification-calendar">
+                    <i class="uil uil-calendar-alt"></i> 2011 - 2014
+                </div>
+
+
+            </div>
+
+        </section>
+        <section class="Work-Experience">
+            <div class="container">
+                <h3><i class="uil uil-briefcase-alt"></i>Work Experience</h3>
+                <span class="Work-title">Catering Service</span>
+                <div class="qualification-calendar">
+                    <i class="uil uil-calendar-alt"></i> 2015 - 2018
+                </div>
+                <span class="Work-title">Freelance</span>
+                <div class="Work-calendar">
+                    <i class="uil uil-calendar-alt"></i> 2018 till now
+                </div>
+
+            </div>
+
+        </section>
+        <!----bagian contact-->
+        <section id="contact">
+            <div class="container">
+                <h3>Contact</h3>
+                <div class="col-3">
+                    <h4><i class="uil uil-user-location"></i>alamat</h4>
+                    <P>Ds.Jatirejo rt.12/rw.02 Kec.wonoasri Kb.Madiun</P>
+                </div>
+                <div class="col-3">
+                    <h4><i class="uil uil-envelope"></i>email</h4>
+                    <P>platifbudi@gmail.com</P>
+                </div>
+                <div class="col-3">
+                    <h4><i class="uil uil-phone"></i>telfon</h4>
+                    <P>085782244135</P>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <small><span>thank you</span></small>
+                <span class="icon" onclick="setDarkMode(false)"><i class="uil uil-smile-beam"></i></span>
+                <span class="icon" onclick="setDarkMode(true)"><i class="uil uil-surprise"></i></span>
+            </div>
+        </footer>
+
+
+    </body>
+    <script>
+        function setDarkMode(isDark) {
+            if (isDark) {
+                document.body.setAttribute('id', 'darkmode')
+            } else {
+                document.body.setAttribute('id', '')
+            }
+        }
+    </script>
+</head>
+
+</html>
